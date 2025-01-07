@@ -1,0 +1,16 @@
+.skroll {
+    position: relative;
+    margin-top: 20px;
+    height: 350px; 
+    overflow-y: auto; 
+    padding-right: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 15px rgba(0,0,0,0.5);  
+    }
+    ::-webkit-scrollbar {
+    width: 5px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #fff;
+    }
